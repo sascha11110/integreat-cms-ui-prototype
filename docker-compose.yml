@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  php:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    command: php -S localhost:8000
+    network_mode: host
+    ports:
+      - 8000:8000
+    restart: always
+    tty: true
+    volumes:
+      - "./code:/code"
