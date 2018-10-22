@@ -22,23 +22,26 @@
     <a class="bg-white inline-block py-2 px-4 text-grey-darkest hover:text-blue-darker shadow" href="">
         <img src="images/flags/en.png" title="Deutsch" class="mr-1" />
         Englisch
+        <i data-feather="refresh-cw" class="text-base-color" style="width:12px;height:12px;margin-left:5px;"></i>
     </a>
   </li>
   <li class="mr-1">
     <a class="bg-white inline-block py-2 px-4 text-grey-darkest hover:text-blue-darker shadow" href="">
         <img src="images/flags/ar.png" title="Deutsch" class="mr-1" />
         Arabisch
+        <i data-feather="refresh-cw" class="text-base-color" style="width:12px;height:12px;margin-left:5px;"></i>
     </a>
   </li>
   <li class="mr-1">
     <a class="bg-white inline-block py-2 px-4 text-grey-darkest hover:text-blue-darker shadow" href="">
         <img src="images/flags/fa.png" title="Deutsch" class="mr-1" />
         Farsi
+        <i data-feather="plus" class="text-base-color" style="width:12px;height:12px;margin-left:5px;"></i>
     </a>
   </li>
 </ul>
 
-<div class="relative z-20 w-full p-4 rounded-b border-l border-r border-b border-solid border-grey-light shadow bg-white" style="margin-top: 0;">
+<div class="relative z-20 w-full p-4 rounded border-l border-r border-b border-solid border-grey-light shadow bg-white" style="margin-top: 0;">
     <input class="appearance-none block w-full bg-grey-lighter text-xl text-grey-darkest border border-grey-lighter rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-grey" placeholder="Titel hier eingeben" type="text">
     <img src="images/tinymce.png" class="mt-5" />
 </div>

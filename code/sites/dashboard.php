@@ -1,10 +1,10 @@
-<div class="mb-12 text-teal-dark">
-    <h3>Was soll noch auf diese Seite?</h3>
-    <ul class="mt-4">
+<div class="mb-12">
+    <h3>Weitere Element auf dieser Seite:</h3>
+    <ul class="mt-2">
         <li>Analytics-Überblick</li>
         <li>Letztes Feedback</li>
-        <li>Bericht zur Übersetzung</li>
-        <li>Nächste Events</li>
+        <li>Aktivierte Extras</li>
+        <li>Abdeckung der Übersetzungen</li>
         <li>Autorenchat</li>
     </ul>
 </div>

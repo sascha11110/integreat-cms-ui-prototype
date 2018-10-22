@@ -1,14 +1,3 @@
-<div class="mb-12 text-teal-dark">
-    <ul class="mt-4">
-        <li>ist "Veranstaltung duplizieren" relevant?</li>
-        <li>sind "Veranstaltungsschlagworte" relevant?</li>
-        <li>ist das "Beitragsbild" relevant?</li>
-        <li>geplante Veröffentlichung relevant?</li>
-        <li>ist die Angabe der Zeitzone relevant?</li>
-        <li>wie werden wiederkehrende Veranstaltungen derzeit angelegt?</li>
-    </ul>
-</div>
-
 <div class="flex flex-wrap mb-4">
     <div class="w-2/5 flex flex-wrap flex-col justify-center">
         <h2 class="heading font-normal">
@@ -35,7 +24,12 @@
             <div class="w-full md:w-1/2 md:pr-2">
                 <div class="w-full p-4 mt-2 rounded border border-solid border-grey-light shadow bg-white">
                     <h3 class="font-bold mb-3">Wann</h3>
-                    <span class="text-teal-dark block mb-2">Wiederkehrende Events?</span>
+                    <div class="checkbox-wrap relative mt-2 mb-4 pl-5" style="padding-top:2px;padding-bottom:2px;">
+                        <input class="leading-tight block absolute" style="top:5px;left:0;" type="checkbox" id="recurring">
+                        <label for="recurring">
+                            Wiederkehrendes Event?
+                        </label>
+                    </div>
                     <label class="mb-2 block font-bold uppercase text-sm">Datum</label>
                     <div class="flex flex-wrap">
                         <div class="w-1/2 pr-2">
@@ -107,17 +101,6 @@
                         <option>Deutsch</option>
                         <option>Englisch</option>
                         <option>...</option>
-                    </select>
-                    <div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darkest">
-                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                    </div>
-                </div>
-            </div>
-            <div class="py-2 border-b solid border-grey-lighter mb-2">
-                <label class="font-bold">Übersetzungspriorität</label>
-                <div class="relative my-2">
-                    <select class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darkest py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-grey">
-                        <option>hoch</option>
                     </select>
                     <div class="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darkest">
                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>

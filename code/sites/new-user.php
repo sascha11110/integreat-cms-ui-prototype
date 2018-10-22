@@ -1,10 +1,3 @@
-<div class="mb-12 text-teal-dark">
-    <ul class="mt-4">
-        <li>ist es ausreichend, wenn man bestehende Benutzer nur im internen Backend zuordnen kann?</li>
-        <li>was ist der use case für "Andere Rollen"?</li>
-    </ul>
-</div>
-
 <div class="flex flex-wrap mb-4">
     <div class="w-2/5 flex flex-wrap flex-col justify-center">
         <h2 class="heading font-normal">

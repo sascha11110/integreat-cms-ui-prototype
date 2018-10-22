@@ -1,10 +1,3 @@
-<div class="mb-12 text-teal-dark">
-    <ul class="mt-4">
-        <li>Verlinkung zur zugehörigen so intuitiv genug? Oder Button o.ä. notwendig?</li>
-    </ul>
-</div>
-
-
 <h2 class="heading font-normal mb-2">Feedback</h2>
 
 <table class="w-full mt-4 rounded border border-solid border-grey-light shadow bg-white">

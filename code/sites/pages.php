@@ -1,5 +1,14 @@
 <div class="table-header">
-    <h2 class="heading font-normal mb-2">Seiten</h2>
+    <div class="flex flex-wrap">
+        <div class="w-1/2">
+            <h2 class="heading font-normal mb-2">Seiten</h2>
+        </div>
+        <div class="w-1/2 flex flex-wrap flex-col justify-center">
+            <div class="flex flex-wrap justify-end">
+                <a href="" class="text-sm text-grey-darkest block pb-2">Archivierte Seiten</a>            
+            </div>
+        </div>
+    </div>
     <div class="flex flex-wrap">
         <form class="table-search relative w-1/2">
             <i data-feather="search" class="absolute"></i>
@@ -158,16 +167,16 @@
                     <div class="block py-3 px-2 text-base-color">
                         <div class="lang-grid">
                             <a href="">
-                                <i data-feather="plus" class="text-base-color"></i>
+                                <i data-feather="refresh-cw" class="text-base-color"></i>
                             </a>
                             <a href="">
                                 <i data-feather="edit-2" class="text-base-color"></i>
                             </a>
                             <a href="">
-                                <i data-feather="edit-2" class="text-base-color"></i>
+                                <i data-feather="refresh-cw" class="text-base-color"></i>
                             </a>
                             <a href="">
-                                <i data-feather="plus" class="text-base-color"></i>
+                                <i data-feather="refresh-cw" class="text-base-color"></i>
                             </a>
                         </div>
                     </div>
@@ -362,16 +371,16 @@
                     <div class="block py-3 px-2 text-base-color">
                         <div class="lang-grid">
                             <a href="">
-                                <i data-feather="plus" class="text-base-color"></i>
+                                <i data-feather="refresh-cw" class="text-base-color"></i>
                             </a>
                             <a href="">
                                 <i data-feather="edit-2" class="text-base-color"></i>
                             </a>
                             <a href="">
-                                <i data-feather="edit-2" class="text-base-color"></i>
+                                <i data-feather="refresh-cw" class="text-base-color"></i>
                             </a>
                             <a href="">
-                                <i data-feather="plus" class="text-base-color"></i>
+                                <i data-feather="refresh-cw" class="text-base-color"></i>
                             </a>
                         </div>
                     </div>

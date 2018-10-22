@@ -19,11 +19,13 @@
             </form>
         </div>
         <div id="instance-selector" class="relative flex flex-wrap flex-col justify-center px-3 cursor-pointer text-grey-darkest">
-            <i data-feather="server"></i>
+            <div class="flex flex-wrap">
+                <i data-feather="server"></i>
+                <span class="mt-1 ml-2">
+                    Bad Tölz
+                </span>
+            </div>
             <div id="instance-selector-list" class="absolute shadow rounded-b">
-            <a href="" class="block px-4 py-3 text-grey-darkest bg-integreat">
-                Bad Tölz
-            </a>
             <a href="" class="block px-4 py-3 text-grey-darkest hover:bg-grey">
                 Dormagen
             </a>
@@ -43,7 +45,9 @@
         </div>
         <div id="language-selector" class="relative flex flex-wrap flex-col justify-center px-4 cursor-pointer text-grey-darkest">
             <div class="flex flex-wrap">
-                <i data-feather="globe"></i>
+                <div style="padding-top:5px;">
+                    <img src="images/flags/de.png" title="Deutsch" />
+                </div>
                 <span class="mt-1 ml-2">
                     Deutsch
                 </span>
@@ -102,7 +106,7 @@
             </a>
             <a href="?site=stats" class="relative block text-grey-light hover:text-grey-darker hover:bg-integreat <?php if($_GET['site'] == 'stats'): ?>active<?php endif; ?>">
                 <i data-feather="bar-chart" class="absolute"></i>
-                Statistiken <span class="text-teal-dark">(Name?)</span>
+                Statistiken
             </a>
             <a href="?site=pages" class="relative block text-grey-light hover:text-grey-darker hover:bg-integreat <?php if($_GET['site'] == 'pages' or $_GET['site'] == 'new-page'): ?>active<?php endif; ?>">
                 <i data-feather="layout" class="absolute"></i>
@@ -120,7 +124,7 @@
                 <i data-feather="thumbs-up" class="absolute"></i>
                 Feedback
             </a>
-            <a href="?site=notifications" class="relative block text-grey-light hover:text-grey-darker hover:bg-integreat <?php if($_GET['site'] == 'notifications'): ?>active<?php endif; ?>">
+            <a href="?site=notifications" class="relative block text-grey-light hover:text-grey-darker hover:bg-integreat <?php if($_GET['site'] == 'notifications' or $_GET['site'] == 'new-notification'): ?>active<?php endif; ?>">
                 <i data-feather="send" class="absolute"></i>
                 Push Notifications
             </a>
